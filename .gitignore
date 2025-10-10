@@ -1,0 +1,83 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+Backend/.venv/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter
+.ipynb_checkpoints/
+# don't ignore .ipynb so notebooks remain tracked; ignore checkpoints and executed outputs
+*__executed.ipynb
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+nosetests.xml
+
+# SQLite
+*.sqlite3
+*.db
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Node / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+pnpm-lock.yaml
+package-lock.json
+
+# Frontend build artifacts (if using create-react-app)
+frontend/build/
+frontend/node_modules/
+
+# Misc
+*.bak
+*.tmp
+~*
